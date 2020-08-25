@@ -8,7 +8,7 @@ print(r.status_code)  # Request was okay means get 200
 # Post Requests
 url = 'www.facebook.com'
 data = {
-    "p1": 7691026822,
-    "p2": "Samsung???@123"
+    "p1": 716234567,
+    "p2": "war@123"
 }
 r2 = requests.post(url=url, data=data)
